@@ -1,0 +1,6 @@
+framework module Pods_DESCrypt_Example {
+  umbrella header "Pods-DESCrypt_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

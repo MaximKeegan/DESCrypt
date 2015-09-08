@@ -1,0 +1,6 @@
+framework module DESCrypt {
+  umbrella header "DESCrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}

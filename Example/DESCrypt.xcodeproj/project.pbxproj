@@ -7,205 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40F80577BF0D59C0CC9A4424 /* Pods_DESCrypt_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896F5C0B52E5DE95744FA8D8 /* Pods_DESCrypt_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		4837631129F495821B26BBF8 /* Pods_DESCrypt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4224EE8AA9A7DC59C3373A21 /* Pods_DESCrypt_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* DESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DESAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DESViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		0DAE9A3263B7D7686CB80BC0 /* Pods_DESCrypt_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CE5350D30DA19B75DE9F76 /* Pods_DESCrypt_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2558E4FC58D9A507C4C168DD /* Pods_DESCrypt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3F8FAD96D48E554BBD3D80 /* Pods_DESCrypt_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		934693011B9EF2F000235F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 934693001B9EF2F000235F2D /* main.m */; };
+		935E226D1B9EFEA8008FB849 /* DESCrypt_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E226C1B9EFEA8008FB849 /* DESCrypt_Tests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = DESCrypt;
+/* Begin PBXCopyFilesBuildPhase section */
+		934692FB1B9EF2F000235F2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		096FE78C63566E15A216254A /* Pods-DESCrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Example/Pods-DESCrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		274FCCED0012FCB73D10AC20 /* Pods-DESCrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Tests/Pods-DESCrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2C16BD401AE5D41F69B548A5 /* Pods-DESCrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Tests/Pods-DESCrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4224EE8AA9A7DC59C3373A21 /* Pods_DESCrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DESCrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* DESCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = DESCrypt.app; path = DESCrypt_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* DESCrypt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DESCrypt-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* DESCrypt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DESCrypt-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* DESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DESAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* DESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DESAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DESViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DESViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DESViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DESViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = DESCrypt_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		765859B74A0A80A68A214658 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		896F5C0B52E5DE95744FA8D8 /* Pods_DESCrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DESCrypt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4B91B5504DA8BC9007A9EE2 /* DESCrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DESCrypt.podspec; path = ../DESCrypt.podspec; sourceTree = "<group>"; };
-		B943032D6D92EA54F809ED4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BA749420C7519AA720B7B332 /* Pods-DESCrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Example/Pods-DESCrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		12CE5350D30DA19B75DE9F76 /* Pods_DESCrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DESCrypt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934692FD1B9EF2F000235F2D /* DESCrypt_Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DESCrypt_Example; sourceTree = BUILT_PRODUCTS_DIR; };
+		934693001B9EF2F000235F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		935E22681B9EFEA8008FB849 /* DESCrypt_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DESCrypt_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		935E226B1B9EFEA8008FB849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935E226C1B9EFEA8008FB849 /* DESCrypt_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DESCrypt_Tests.m; sourceTree = "<group>"; };
+		9F1843CCCE85EE7D6725D7E7 /* Pods-DESCrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Example/Pods-DESCrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3F8FAD96D48E554BBD3D80 /* Pods_DESCrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DESCrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53045FC6CE4E684A8572F29 /* Pods-DESCrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Tests/Pods-DESCrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA46028FD4229AFB1097B1EC /* Pods-DESCrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Tests/Pods-DESCrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FFDF75479504C948E4B46399 /* Pods-DESCrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DESCrypt_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DESCrypt_Example/Pods-DESCrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F587195388D20070C39A /* Frameworks */ = {
+		934692FA1B9EF2F000235F2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				4837631129F495821B26BBF8 /* Pods_DESCrypt_Example.framework in Frameworks */,
+				2558E4FC58D9A507C4C168DD /* Pods_DESCrypt_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		935E22651B9EFEA8008FB849 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				40F80577BF0D59C0CC9A4424 /* Pods_DESCrypt_Tests.framework in Frameworks */,
+				0DAE9A3263B7D7686CB80BC0 /* Pods_DESCrypt_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58F891E365C9B14F4E71305E /* Pods */ = {
+		3AD4BA0A4DEEAF0FF5068006 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				096FE78C63566E15A216254A /* Pods-DESCrypt_Example.debug.xcconfig */,
-				BA749420C7519AA720B7B332 /* Pods-DESCrypt_Example.release.xcconfig */,
-				2C16BD401AE5D41F69B548A5 /* Pods-DESCrypt_Tests.debug.xcconfig */,
-				274FCCED0012FCB73D10AC20 /* Pods-DESCrypt_Tests.release.xcconfig */,
+				9F1843CCCE85EE7D6725D7E7 /* Pods-DESCrypt_Example.debug.xcconfig */,
+				FFDF75479504C948E4B46399 /* Pods-DESCrypt_Example.release.xcconfig */,
+				D53045FC6CE4E684A8572F29 /* Pods-DESCrypt_Tests.debug.xcconfig */,
+				EA46028FD4229AFB1097B1EC /* Pods-DESCrypt_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6003F581195388D10070C39A = {
+		5A6605F6C3DCCF5F9E6C77EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for DESCrypt */,
-				6003F5B5195388D20070C39A /* Tests */,
-				6003F58C195388D20070C39A /* Frameworks */,
-				6003F58B195388D20070C39A /* Products */,
-				58F891E365C9B14F4E71305E /* Pods */,
-			);
-			sourceTree = "<group>";
-		};
-		6003F58B195388D20070C39A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6003F58A195388D20070C39A /* DESCrypt.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6003F58C195388D20070C39A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4224EE8AA9A7DC59C3373A21 /* Pods_DESCrypt_Example.framework */,
-				896F5C0B52E5DE95744FA8D8 /* Pods_DESCrypt_Tests.framework */,
+				CD3F8FAD96D48E554BBD3D80 /* Pods_DESCrypt_Example.framework */,
+				12CE5350D30DA19B75DE9F76 /* Pods_DESCrypt_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for DESCrypt */ = {
+		934692F41B9EF2F000235F2D = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* DESAppDelegate.h */,
-				6003F59D195388D20070C39A /* DESAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DESViewController.h */,
-				6003F5A6195388D20070C39A /* DESViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
+				934692FF1B9EF2F000235F2D /* DESCrypt */,
+				935E22691B9EFEA8008FB849 /* DESCrypt_Tests */,
+				934692FE1B9EF2F000235F2D /* Products */,
+				3AD4BA0A4DEEAF0FF5068006 /* Pods */,
+				5A6605F6C3DCCF5F9E6C77EF /* Frameworks */,
 			);
-			name = "Example for DESCrypt";
+			sourceTree = "<group>";
+		};
+		934692FE1B9EF2F000235F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934692FD1B9EF2F000235F2D /* DESCrypt_Example */,
+				935E22681B9EFEA8008FB849 /* DESCrypt_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934692FF1B9EF2F000235F2D /* DESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				934693001B9EF2F000235F2D /* main.m */,
+			);
 			path = DESCrypt;
 			sourceTree = "<group>";
 		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
+		935E22691B9EFEA8008FB849 /* DESCrypt_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* DESCrypt-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* DESCrypt-Prefix.pch */,
+				935E226C1B9EFEA8008FB849 /* DESCrypt_Tests.m */,
+				935E226A1B9EFEA8008FB849 /* Supporting Files */,
+			);
+			path = DESCrypt_Tests;
+			sourceTree = "<group>";
+		};
+		935E226A1B9EFEA8008FB849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				935E226B1B9EFEA8008FB849 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				A4B91B5504DA8BC9007A9EE2 /* DESCrypt.podspec */,
-				B943032D6D92EA54F809ED4A /* README.md */,
-				765859B74A0A80A68A214658 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* DESCrypt_Example */ = {
+		934692FC1B9EF2F000235F2D /* DESCrypt_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DESCrypt_Example" */;
+			buildConfigurationList = 934693041B9EF2F000235F2D /* Build configuration list for PBXNativeTarget "DESCrypt_Example" */;
 			buildPhases = (
-				9BCDCD6D6F68554952B38FB7 /* Check Pods Manifest.lock */,
-				6003F586195388D20070C39A /* Sources */,
-				6003F587195388D20070C39A /* Frameworks */,
-				6003F588195388D20070C39A /* Resources */,
-				329F328E0613D4480DEC9E10 /* Embed Pods Frameworks */,
-				DAC219D8C16FAEAE4A6F1665 /* Copy Pods Resources */,
+				A19DAD67ADC4064B99A008C1 /* Check Pods Manifest.lock */,
+				934692F91B9EF2F000235F2D /* Sources */,
+				934692FA1B9EF2F000235F2D /* Frameworks */,
+				934692FB1B9EF2F000235F2D /* CopyFiles */,
+				F2DF417C16880276DD269C83 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,147 +143,76 @@
 			);
 			name = DESCrypt_Example;
 			productName = DESCrypt;
-			productReference = 6003F58A195388D20070C39A /* DESCrypt.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 934692FD1B9EF2F000235F2D /* DESCrypt_Example */;
+			productType = "com.apple.product-type.tool";
 		};
-		6003F5AD195388D20070C39A /* DESCrypt_Tests */ = {
+		935E22671B9EFEA8008FB849 /* DESCrypt_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DESCrypt_Tests" */;
+			buildConfigurationList = 935E226E1B9EFEA8008FB849 /* Build configuration list for PBXNativeTarget "DESCrypt_Tests" */;
 			buildPhases = (
-				269F94015D57EB0D33D7C8BB /* Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				52828A7F7E58D589F209F87E /* Embed Pods Frameworks */,
-				CD0909112D49FD4864261800 /* Copy Pods Resources */,
+				B9B7EF1D9F8AD85D49EBD035 /* Check Pods Manifest.lock */,
+				935E22641B9EFEA8008FB849 /* Sources */,
+				935E22651B9EFEA8008FB849 /* Frameworks */,
+				935E22661B9EFEA8008FB849 /* Resources */,
+				FF42563A32075AE2D2C9E981 /* Embed Pods Frameworks */,
+				1EE7DDC26B85D828EF7510CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
 			name = DESCrypt_Tests;
-			productName = DESCryptTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productName = DESCrypt_Tests;
+			productReference = 935E22681B9EFEA8008FB849 /* DESCrypt_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6003F582195388D10070C39A /* Project object */ = {
+		934692F51B9EF2F000235F2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DES;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Maxim Keegan";
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "East Media";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					934692FC1B9EF2F000235F2D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					935E22671B9EFEA8008FB849 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DESCrypt" */;
+			buildConfigurationList = 934692F81B9EF2F000235F2D /* Build configuration list for PBXProject "DESCrypt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 6003F581195388D10070C39A;
-			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			mainGroup = 934692F41B9EF2F000235F2D;
+			productRefGroup = 934692FE1B9EF2F000235F2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* DESCrypt_Example */,
-				6003F5AD195388D20070C39A /* DESCrypt_Tests */,
+				934692FC1B9EF2F000235F2D /* DESCrypt_Example */,
+				935E22671B9EFEA8008FB849 /* DESCrypt_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F588195388D20070C39A /* Resources */ = {
+		935E22661B9EFEA8008FB849 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		269F94015D57EB0D33D7C8BB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		329F328E0613D4480DEC9E10 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DESCrypt_Example/Pods-DESCrypt_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		52828A7F7E58D589F209F87E /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DESCrypt_Tests/Pods-DESCrypt_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9BCDCD6D6F68554952B38FB7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CD0909112D49FD4864261800 /* Copy Pods Resources */ = {
+		1EE7DDC26B85D828EF7510CC /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,7 +227,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DESCrypt_Tests/Pods-DESCrypt_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DAC219D8C16FAEAE4A6F1665 /* Copy Pods Resources */ = {
+		A19DAD67ADC4064B99A008C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B7EF1D9F8AD85D49EBD035 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DF417C16880276DD269C83 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,58 +272,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DESCrypt_Example/Pods-DESCrypt_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FF42563A32075AE2D2C9E981 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DESCrypt_Tests/Pods-DESCrypt_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6003F586195388D20070C39A /* Sources */ = {
+		934692F91B9EF2F000235F2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* DESAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DESViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				934693011B9EF2F000235F2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
+		935E22641B9EFEA8008FB849 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				935E226D1B9EFEA8008FB849 /* DESCrypt_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* DESCrypt_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		6003F5BD195388D20070C39A /* Debug */ = {
+		934693021B9EF2F000235F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -449,11 +324,14 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -466,14 +344,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		6003F5BE195388D20070C39A /* Release */ = {
+		934693031B9EF2F000235F2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,127 +366,107 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		6003F5C0195388D20070C39A /* Debug */ = {
+		934693051B9EF2F000235F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 096FE78C63566E15A216254A /* Pods-DESCrypt_Example.debug.xcconfig */;
+			baseConfigurationReference = 9F1843CCCE85EE7D6725D7E7 /* Pods-DESCrypt_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DESCrypt/DESCrypt-Prefix.pch";
-				INFOPLIST_FILE = "DESCrypt/DESCrypt-Info.plist";
-				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		6003F5C1195388D20070C39A /* Release */ = {
+		934693061B9EF2F000235F2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA749420C7519AA720B7B332 /* Pods-DESCrypt_Example.release.xcconfig */;
+			baseConfigurationReference = FFDF75479504C948E4B46399 /* Pods-DESCrypt_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DESCrypt/DESCrypt-Prefix.pch";
-				INFOPLIST_FILE = "DESCrypt/DESCrypt-Info.plist";
-				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		935E226F1B9EFEA8008FB849 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C16BD401AE5D41F69B548A5 /* Pods-DESCrypt_Tests.debug.xcconfig */;
+			baseConfigurationReference = D53045FC6CE4E684A8572F29 /* Pods-DESCrypt_Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INFOPLIST_FILE = DESCrypt_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DESCrypt_Example.app/DESCrypt_Example";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		935E22701B9EFEA8008FB849 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 274FCCED0012FCB73D10AC20 /* Pods-DESCrypt_Tests.release.xcconfig */;
+			baseConfigurationReference = EA46028FD4229AFB1097B1EC /* Pods-DESCrypt_Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INFOPLIST_FILE = DESCrypt_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DESCrypt_Example.app/DESCrypt_Example";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "DESCrypt" */ = {
+		934692F81B9EF2F000235F2D /* Build configuration list for PBXProject "DESCrypt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5BD195388D20070C39A /* Debug */,
-				6003F5BE195388D20070C39A /* Release */,
+				934693021B9EF2F000235F2D /* Debug */,
+				934693031B9EF2F000235F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DESCrypt_Example" */ = {
+		934693041B9EF2F000235F2D /* Build configuration list for PBXNativeTarget "DESCrypt_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C0195388D20070C39A /* Debug */,
-				6003F5C1195388D20070C39A /* Release */,
+				934693051B9EF2F000235F2D /* Debug */,
+				934693061B9EF2F000235F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DESCrypt_Tests" */ = {
+		935E226E1B9EFEA8008FB849 /* Build configuration list for PBXNativeTarget "DESCrypt_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				935E226F1B9EFEA8008FB849 /* Debug */,
+				935E22701B9EFEA8008FB849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6003F582195388D10070C39A /* Project object */;
+	rootObject = 934692F51B9EF2F000235F2D /* Project object */;
 }
