@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DESCrypt_Example', :exclusive => true do
+  pod "DESCrypt", :path => "../"
+end
+
+target 'DESCrypt_Tests', :exclusive => true do
+  pod "DESCrypt", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
